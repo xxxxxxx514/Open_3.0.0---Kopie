@@ -1,0 +1,30 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "D:/Schule/3 Klasse/Visual Studio/Open_0.0.0/Open_0.0.0/bin/Debug/Content/structures",
+    "last.imagePath": "C:/Users/dario/Downloads/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard",
+    "map.fixedSize": false,
+    "map.height": 32,
+    "map.lastUsedExportFilter": "CSV-Dateien (*.csv)",
+    "map.width": 32,
+    "openFiles": [
+        "tiles.tsx"
+    ],
+    "project": "village.tiled-project",
+    "recentFiles": [
+        "tiles.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actors\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actors\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\components\\movement_component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\components\\movement_component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actors\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actors\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actions\\wanderaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actions\\wanderaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\components\\body_componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\components\\body_componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actors\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actors\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actions\\drinkaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actions\\drinkaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actions\\eataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actions\\eataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\desiremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\desiremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\components\\decisioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\components\\decisioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\desire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\desire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\actions\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\actions\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|c:\\users\\dario\\desktop\\open_2.2.1\\open_0.0.0\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBAE54B-96DE-4CAB-9754-D636BACE6265}|Open_0.0.0\\Open_0.0.0.csproj|solutionrelative:open_0.0.0\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\NPC.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actors\\NPC.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\NPC.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actors\\NPC.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:55:49.363Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Player.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actors\\Player.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Player.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actors\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T20:18:11.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Body_Componente.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\Body_Componente.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Components\\Body_Componente.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\Body_Componente.cs",
+              "RelativeToolTip": "Open_0.0.0\\Components\\Body_Componente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T19:46:47.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movement_Component.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\Movement_Component.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Components\\Movement_Component.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\Movement_Component.cs",
+              "RelativeToolTip": "Open_0.0.0\\Components\\Movement_Component.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T19:44:55.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAction.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\IAction.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actions\\IAction.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\IAction.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actions\\IAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T19:05:30.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Human.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Human.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actors\\Human.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Human.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actors\\Human.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA7wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:11:41.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DesireManager.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\DesireManager.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\DesireManager.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\DesireManager.cs",
+              "RelativeToolTip": "Open_0.0.0\\DesireManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:57:26.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DecisionComponent.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\DecisionComponent.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Components\\DecisionComponent.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Components\\DecisionComponent.cs",
+              "RelativeToolTip": "Open_0.0.0\\Components\\DecisionComponent.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:12:09.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Program.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Program.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Program.cs",
+              "RelativeToolTip": "Open_0.0.0\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwDoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:58:45.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Desire.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Desire.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Desire.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Desire.cs",
+              "RelativeToolTip": "Open_0.0.0\\Desire.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T10:28:23.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WanderAction.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\WanderAction.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actions\\WanderAction.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\WanderAction.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actions\\WanderAction.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:31:43.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DrinkAction.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\DrinkAction.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actions\\DrinkAction.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\DrinkAction.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actions\\DrinkAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:27:48.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EatAction.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\EatAction.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actions\\EatAction.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actions\\EatAction.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actions\\EatAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:14:27.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Actor.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Actors\\Actor.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Actors\\Actor.cs",
+              "RelativeToolTip": "Open_0.0.0\\Actors\\Actor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T20:22:51.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Game.cs",
+              "RelativeDocumentMoniker": "Open_0.0.0\\Game.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Game.cs",
+              "RelativeToolTip": "Open_0.0.0\\Game.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAnwGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T16:06:00.358Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

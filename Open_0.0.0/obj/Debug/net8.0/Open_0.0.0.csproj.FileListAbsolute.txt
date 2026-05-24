@@ -1,0 +1,1386 @@
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+D:\Schule\3 Klasse\Visual Studio\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_0.0.0\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_1.0.0\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_1.1.0\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_1.2.0\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_1.2.0 - Kopie\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.exe
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.deps.json
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.runtimeconfig.json
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\SFML.Audio.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\SFML.Graphics.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\SFML.System.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\SFML.Window.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\fedora-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-arm64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libcsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-audio.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-graphics.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-system.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\linux-x64\native\libsfml-window.so.2.6
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-arm64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\FLAC
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\FLAC.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\OpenAL
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\OpenAL.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\A\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\Versions\Current\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\freetype.framework\freetype
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-audio.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-graphics.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-system.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libcsfml-window.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-audio.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-graphics.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-system.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\libsfml-window.2.6.dylib
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\A\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\Versions\Current\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\ogg.framework\ogg
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\A\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\Versions\Current\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbis.framework\vorbis
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\A\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\Versions\Current\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisenc.framework\vorbisenc
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\A\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\Resources\Info.plist
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\Versions\Current\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\osx-x64\native\vorbisfile.framework\vorbisfile
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x64\native\openal32.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-audio.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-graphics.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-system.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\csfml-window.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\bin\Debug\net8.0\runtimes\win-x86\native\openal32.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.AssemblyInfo.cs
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.csproj.Up2Date
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
