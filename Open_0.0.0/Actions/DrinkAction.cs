@@ -6,7 +6,7 @@ namespace Open_0._0._0.Actions
     {
         public void Execute(Actor actor, float deltaTime, Map map)
         {
-            actor.DesireManager.Desire.RestoreNeeds(0,30);//später mit tränke items
+            actor.DesireManager.Desire.RestoreNeeds(0,10);//später mit tränke items
             actor.DesireManager.RemoveAction<DrinkAction>();
         }
         public int GetPriority(Actor actor, Desire desire)

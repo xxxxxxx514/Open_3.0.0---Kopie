@@ -1,9 +1,11 @@
 ﻿using Open_0._0._0.Actions;
+using Open_0._0._0.Actors;
+using Open_0._0._0.Components;
 using SFML.System;
 
 namespace Open_0._0._0
 {
-    class Desire
+    class Desire : ITickable
     {
         private int _hunger = 0;
         private int _thirst = 0;
@@ -13,7 +15,9 @@ namespace Open_0._0._0
         private const int _thirstReq = 75;
         private const int _happinessReq = 85;
         public DesireState State { get; set; }
-        private Clock _clock=new Clock();
+
+        private float _checktimer = 1;
+        private int _timerCooldown = 1;
 
         public Desire()
         {
@@ -29,7 +33,6 @@ namespace Open_0._0._0
                 else _hunger = value;
             }
         }
-
         public int Thirst
         {
             get => _thirst;
@@ -40,7 +43,6 @@ namespace Open_0._0._0
                 else _thirst = value;
             }
         }
-
         public int Happines
         {
             get => _happiness;
@@ -51,14 +53,17 @@ namespace Open_0._0._0
                 else _happiness = value;
             }
         }
-        public void Update(DesireManager manager)
+        public void Update(float deltatime, DesireManager manager)
         {
+            Tick(deltatime);
+
             DeterminateDesireStates();
-            if (_clock.ElapsedTime.AsSeconds() >= 1)
+            if (_checktimer < 0)
             {
                 DeterminateHappiness();
-                _clock.Restart();
+                _checktimer= _timerCooldown;
             }
+
             if (State.HasFlag(DesireState.HungerHigh))
                 manager.AddAction(new EatAction());
             else
@@ -69,6 +74,12 @@ namespace Open_0._0._0
             else
                 manager.RemoveAction<DrinkAction>();
 
+
+        }
+        public void Tick(float dt)
+        {
+            if (_checktimer > 0)
+                _checktimer -= dt;
         }
         public void DrainNeeds(int hungerDrain, int thirstDrain)
         {
@@ -108,7 +119,7 @@ namespace Open_0._0._0
                     State &= ~DesireState.ThirstHigh;
                 }
             }
-                if (Happines > _happinessReq)
+            if (Happines > _happinessReq)
             {
                 State |= DesireState.Unhappy;
             }

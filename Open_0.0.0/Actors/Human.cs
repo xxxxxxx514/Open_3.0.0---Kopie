@@ -6,14 +6,10 @@ namespace Open_0._0._0.Actors
 {
      class Human : NPC
     {
-        private AI_Component AI_Component { get; set; }
-
         public Human(int gridX, int gridY) : base(gridX, gridY)
         {
             Name = "Human";
             Body_Componente.ChangeBodyColor(CustomColors.BurlyWood);
-            AI_Component = new AI_Component(this);
-
         }
         public Human() : base()
         {

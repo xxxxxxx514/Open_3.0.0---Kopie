@@ -5,11 +5,12 @@ using SFML.Window;
 
 namespace Open_0._0._0.Components
 {
-     class Movement_Component
+     class Movement_Component:ITickable
     {
         public Actor Character;
         public float MoveSpeed { get; private set; } = 210f;
-
+        private float _timer = 0;
+       
         public Movement_Component(Actor character)
         {
             Character = character;
@@ -70,6 +71,11 @@ namespace Open_0._0._0.Components
         {
             if (amount > 0)
                 MoveSpeed += amount;
+        }
+        public void Tick(float dt)
+        {
+            if (_timer > 0)
+                _timer -= dt;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using SFML.Graphics;
+﻿using Open_0._0._0.Actions;
+using SFML.Graphics;
 using SFML.System;
 
 namespace Open_0._0._0
@@ -9,6 +10,7 @@ namespace Open_0._0._0
         public int Level { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public IAction Action { get; set; }
         public Item(int level, string name, string descrption)
         {
             Shape = new RectangleShape();

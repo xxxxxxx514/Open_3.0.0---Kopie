@@ -1,18 +1,24 @@
-﻿using Open_0._0._0.Utils;
+﻿using Open_0._0._0.Actors;
+using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
 using System;
 
 namespace Open_0._0._0.Components
 {
-     class Body_Componente
+     class Body_Componente:ITickable
     {
         public Sprite Sprite;
         public Texture Texture;
         public RectangleShape Shape { get; set; }
         public Position_Component Position_Component { get; set; }
         public int _size;
-
+        private float _timer = 0;
+        public void Tick(float dt)
+        {
+            if (_timer > 0)
+                _timer -= dt;
+        }
         public Body_Componente(Position_Component position_Component)
         {
             Shape = new RectangleShape();

@@ -1,13 +1,15 @@
-﻿using SFML.System;
+﻿using Open_0._0._0.Actors;
+using SFML.System;
 
 namespace Open_0._0._0.Components
 {
-     class Position_Component
+     class Position_Component:ITickable
     {
         public Vector2f PixelPosition { get; set; }
         public Vector2i GridPosition { get; set; }
         private int _size;
-
+        private float _timer = 0;
+       
         public Position_Component(int size = 28)  // Default auf PLAYER_SIZE
         {
             _size = size;
@@ -33,6 +35,11 @@ namespace Open_0._0._0.Components
         {
             PixelPosition += movement;
             GridPosition = ToGridPosition();
+        }
+        public void Tick(float dt)
+        {
+            if (_timer > 0)
+                _timer -= dt;
         }
     }
 }

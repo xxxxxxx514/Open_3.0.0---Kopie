@@ -3,36 +3,31 @@ using SFML.System;
 
 namespace Open_0._0._0.Components
 {
-     class Attack_Component
+    class Attack_Component:ITickable
     {
         public int Damage { get; private set; } = 100;
-        private Clock _clock;
+        private float _attackTimer = 2f;
         public AttackTypeEnum AttackType { get; set; }
         private float _attackCooldown = 2;
+        public void Tick(float dt)
+        {
+            if (_attackTimer > 0)
+                _attackTimer -= dt;
+        }
 
-        public Attack_Component()
+        public void Attack(Actor target)
         {
-            _clock = new Clock();
-        }
-        public void Attack(Actor actor)
-        {
-            if (CanAttack())
+            if (!CanAttack())
             {
-                actor.Health_Component.TakeDamage(Damage);
-            }
-        }
-        private bool CanAttack()
-        {
-            if (_clock.ElapsedTime.AsSeconds() >= _attackCooldown)
-            {
-                _clock.Restart();
-                return true;
+                return;
             }
             else
             {
-                return false;
+                target.Health_Component.TakeDamage(Damage);
+                _attackTimer = _attackCooldown;
             }
         }
+        public bool CanAttack() => _attackTimer <= 0f;
         public void RaiseDamage(int amount)
         {
             if (amount > 0)

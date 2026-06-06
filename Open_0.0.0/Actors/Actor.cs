@@ -1,12 +1,11 @@
-﻿using Open_0._0._0.Actions;
-using Open_0._0._0.Components;
+﻿using Open_0._0._0.Components;
 using SFML.Graphics;
 
 namespace Open_0._0._0.Actors
 {
     abstract class Actor : ICollidable
     {
-        public string Tag { get; private set; } = "Untagged";
+        public Tag Tag { get; private set; } = Tag.Untagged;
         public Actor Owner { get; init; }
 
         public string Name;
@@ -24,6 +23,8 @@ namespace Open_0._0._0.Actors
         public DecisionComponent Decision_Component { get; set; }
         public DesireManager DesireManager { get; set; }
         public Inventory Inventory { get; private set; }
+
+        public List<ITickable> TickComponents = new();
 
         public Actor(RestrictAccesEnum restrictAcces = RestrictAccesEnum.None)
         {
@@ -44,18 +45,36 @@ namespace Open_0._0._0.Actors
             DesireManager = new DesireManager();
 
             Inventory = new Inventory();
+
+
+            RegisterTickable(Movement_Component);
+            RegisterTickable(Attack_Component);
+            RegisterTickable(Decision_Component);
+            RegisterTickable(DesireManager);
+            RegisterTickable(Level_Component);
+            RegisterTickable(DesireManager.Desire);
         }
-        public abstract void Update(float deltatimey, Map map);
+        public virtual void Update(float deltatime, Map map)
+        {
+            foreach (var component in TickComponents)
+            {
+                component.Tick(deltatime);
+            }
+        }
+        private void RegisterTickable(object component)
+        {
+            if (component is ITickable tickable)
+            {
+                TickComponents.Add(tickable);
+            }
+        }
         public abstract void Render(RenderWindow window);
         public virtual void OnDeath()
         {
             IsAlive = false;
             Console.WriteLine($"{Name} ist gestorben.");
         }
-
-
-
-        public void SetTag(string tag)
+        public void SetTag(Tag tag)
         {
             Tag = tag;
         }

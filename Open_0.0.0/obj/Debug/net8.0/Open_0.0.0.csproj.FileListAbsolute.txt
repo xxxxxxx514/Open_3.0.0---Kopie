@@ -1384,3 +1384,4 @@ C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\refint\Open_0.0.0.
 C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.pdb
 C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.genruntimeconfig.cache
 C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\ref\Open_0.0.0.dll
+C:\Users\dario\Desktop\Open_2.2.1\Open_0.0.0\obj\Debug\net8.0\Open_0.0.0.sourcelink.json

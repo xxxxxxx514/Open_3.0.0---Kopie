@@ -1,17 +1,44 @@
-﻿using Open_0._0._0.Utils;
+﻿using Open_0._0._0.Actions;
+using Open_0._0._0.Components;
+using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
+using SFML.Window;
 using System.Text;
 
 namespace Open_0._0._0.Actors
 {
-     class NPC : Actor
+    class NPC : Actor
     {
         public const int NPC_SIZE = 28;
 
-        private Clock timer;
+        public int hungerProSec = 2;
+        public int thirstProSec = 2;
+
+        private float _upthungertimer = 1f;
+        private float _exeActiontimer = 2f;
+
+        private int _upthungerCooldown = 1;
+        private int _exeActionCooldown = 2;
+
+        private int _dmgfromDesire = 0;
+
+
+        private float _detectionRange = 50f;
+
+        private Dictionary<DialogKey, string> Dialogs = new()
+        {
+            { DialogKey.Welcome, "Hey! Schön dich zu sehen." },
+            { DialogKey.Goodbye, "Danke fürs Spielen. Bis bald!" },
+            { DialogKey.Error, "Es ist ein Fehler aufgetreten." },
+            { DialogKey.ConfirmExit, "Bist du sicher, dass du das Spiel verlassen möchtest?" },
+            { DialogKey.InvalidInput, "Diese Eingabe ist ungültig." }
+        };
+
         public NPCState CurrentState { get; set; } = NPCState.Idle;
         public RelationshipState Relationship { get; set; } = RelationshipState.Stranger;
+        public PlayerDetector Detector { get; set; }
+
 
         public NPC() : base()
         {
@@ -20,6 +47,8 @@ namespace Open_0._0._0.Actors
             Body_Componente.ChangeBodyColor(CustomColors.BabyBlue);
 
             timer = new Clock();
+            _timer = new Clock();
+            Detector = new PlayerDetector(this);
 
         }
 
@@ -40,54 +69,64 @@ namespace Open_0._0._0.Actors
 
         public override void Update(float deltatime, Map map)
         {
+            base.Update(deltatime, map);
             if (!IsAlive) return;
 
-            UpdateHunger();
+            TickHunger(deltatime, map);
+            //UpdateHunger();
 
             // Bedürfnisse aktualisieren → Actions aktivieren/deaktivieren
-            DesireManager.Desire.Update(DesireManager);
+            DesireManager.Desire.Update(deltatime,DesireManager);
 
             // Entscheidung treffen
-             var action = Decision_Component.Decide(this);
+            var action = Decision_Component.Decide(this);
 
-            // Action ausführen
-             action.Execute(this,deltatime,map);
+            ExecuteAction(deltatime, map,action);
 
             // Bewegung
             Movement_Component.UpdatePosition();
-      
 
-            // 1) Input
-            Vector2f dir = Movement_Component.GetInputDirection();
-            Vector2f movement = dir * deltatime * Movement_Component.MoveSpeed;
-
-            // 2) Bewegung
-            Movement_Component.TryMove(movement, map, NPC_SIZE);
-
-            // 3) Position aktualisieren
-            Movement_Component.UpdatePosition();
-
-            // 4) Items aufsammeln
-        
+            Interactt();
 
         }
-
-        public void UpdateHunger()
+        private void ExecuteAction(float dt, Map map, IAction action)
         {
-            if (timer.ElapsedTime.AsSeconds() >= 1)
+            // WanderAction läuft IMMER sofort
+            if (action is WanderAction)
             {
-                DesireManager.Desire.DrainNeeds(20, 20);
-                DesireManager.Desire.Update(DesireManager);
-                timer.Restart();
+                action.Execute(this, dt, map);
+                return;
+            }
+
+            // Timer runterzählen
+            _exeActiontimer -= dt;
+
+            // Wenn Timer abgelaufen → Action ausführen
+            if (_exeActiontimer <= 0f)
+            {
+                action.Execute(this, dt, map);
+                _exeActiontimer = _exeActionCooldown; // RESET
+            }
+        }
+        public void TickHunger(float deltatime, Map map)
+        {
+            _upthungertimer -= deltatime;//timer runter zählen
+
+            if (_upthungertimer <= 0)
+            {
+                DesireManager.Desire.DrainNeeds(hungerProSec, thirstProSec);
+                DesireManager.Desire.Update(deltatime,DesireManager);
+
+                _upthungertimer = _upthungerCooldown;
+
                 Console.WriteLine(ToString());
 
             }
             if (DesireManager.Desire.IsStarving())
             {
-                Health_Component.TakeDamage(0);
+                Health_Component.TakeDamage(_dmgfromDesire);
             }
         }
-
         public override void Render(RenderWindow window)
         {
             window.Draw(Body_Componente.Sprite);  // Dann den Sprite
@@ -95,9 +134,15 @@ namespace Open_0._0._0.Actors
 
         }
 
-        public virtual void Interact()
+        public virtual void Interactt()
         {
-
+            if (Detector.IsInRange(Game.Player.Position_Component.PixelPosition, _detectionRange))
+            {
+                if (Keyboard.IsKeyPressed(Keyboard.Key.E))
+                {
+                    Console.WriteLine(Dialogs[DialogKey.Welcome]);
+                }
+            }
         }
         public override string ToString()
         {

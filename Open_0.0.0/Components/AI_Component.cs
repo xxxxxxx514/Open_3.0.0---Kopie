@@ -4,7 +4,7 @@ using SFML.System;
 
 namespace Open_0._0._0.Components
 {
-     class AI_Component
+     class AI_Component:ITickable
     {
         public Actor Character;
         private Random _random = new Random();
@@ -21,7 +21,12 @@ namespace Open_0._0._0.Components
         {
             Character = character;
         }
-
+        private float _timer = 0;
+        public void Tick(float dt)
+        {
+            if (_timer > 0)
+                _timer -= dt;
+        }
         public void Update(float deltatime, Map map, Player player)
         {
             Movement(deltatime, map, player);

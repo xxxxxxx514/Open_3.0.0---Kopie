@@ -33,6 +33,7 @@ namespace Open_0._0._0.Actors
         public Player(int gridX, int gridY)
         {
             Name = "Player";
+            SetTag(Tag.Player);
             RestrictAcces = RestrictAccesEnum.Player;
 
             Body_Componente.ChangeBodyColor(CustomColors.PlayerColor);
@@ -162,7 +163,7 @@ namespace Open_0._0._0.Actors
         #endregion
 
         #region Private Methods
-        private void OnDeath()
+       public override void OnDeath()
         {
             if (Health_Component.IsDead())
             {
