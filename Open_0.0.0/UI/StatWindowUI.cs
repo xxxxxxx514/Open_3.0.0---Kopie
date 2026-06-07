@@ -94,7 +94,7 @@ namespace Open_0._0._0.UI
         public void UpdatePlayerInfo()
         {
 
-            _healthText.DisplayedString = $"Health: {_player.Health_Component.Health} / {_player.Health_Component._maxHealth}";
+            _healthText.DisplayedString = $"Health: {_player.Health_Component.Health} / {_player.Health_Component.MaxHealth}";
             _levelText.DisplayedString = $"Level: {_player.Level_Component.Level}";
             _experienceText.DisplayedString = $"XP: {_player.Level_Component.Experience}/{_player.Level_Component.ExperienceToNextLevel}";
 

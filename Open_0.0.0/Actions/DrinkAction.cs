@@ -11,7 +11,7 @@ namespace Open_0._0._0.Actions
         }
         public int GetPriority(Actor actor, Desire desire)
         {
-            return 100 - desire.Hunger;
+            return 100 - desire.Thirst;
         }
 
     }

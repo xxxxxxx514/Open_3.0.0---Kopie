@@ -25,5 +25,11 @@ namespace Open_0._0._0.Utils
         {
             return new Vector2i(vector1.X + vector2.X, vector1.Y + vector2.Y);
         }
+        public static float Distance(Vector2f a, Vector2f b)
+        {
+            float dx = a.X - b.X;
+            float dy = a.Y - b.Y;
+            return MathF.Sqrt(dx * dx + dy * dy);
+        }
     }
 }

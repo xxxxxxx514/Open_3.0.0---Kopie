@@ -1,5 +1,4 @@
-﻿using Open_0._0._0.Actors;
-using SFML.System;
+﻿using SFML.System;
 
 namespace Open_0._0._0.Components
 {

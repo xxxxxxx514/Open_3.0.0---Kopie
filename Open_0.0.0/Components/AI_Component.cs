@@ -17,18 +17,21 @@ namespace Open_0._0._0.Components
         private float _tolerance = 5f;
         private Vector2f _playerPosition;
 
+        private float _attacktimer = 2f;
+        private int _attackCooldown = 2;
+
         public AI_Component(Actor character)
         {
             Character = character;
         }
-        private float _timer = 0;
         public void Tick(float dt)
         {
-            if (_timer > 0)
-                _timer -= dt;
+            if (_attacktimer > 0)
+                _attacktimer -= dt;
         }
         public void Update(float deltatime, Map map, Player player)
         {
+            Tick(deltatime);
             Movement(deltatime, map, player);
             Character.Movement_Component.UpdatePosition();
         }
@@ -108,10 +111,14 @@ namespace Open_0._0._0.Components
                 Player.PLAYER_SIZE,
                 Enemy.ENEMY_SIZE))
             {
-                Character.Attack_Component.Attack(player);
+                if (_attacktimer < 0)
+                {
+                    Console.WriteLine("hat player angegriffen");
+                    Character.Attack_Component.Attack(player);
+                    _attacktimer = _attackCooldown;
+                }
             }
         }
-
         private void DetectPlayer(Vector2f playerPosition)
         {
             _playerPosition = playerPosition;
@@ -119,10 +126,18 @@ namespace Open_0._0._0.Components
             float dy = _playerPosition.Y - Character.Position_Component.PixelPosition.Y;
             float detectionRangeSquared = _detectionRange * _detectionRange;
 
-            _enemyBehavior = dx * dx + dy * dy <= detectionRangeSquared
-                ? EnemyBehavior.Aggro
-                : EnemyBehavior.Patrolling;
+            float distanceSquared = dx * dx + dy * dy;
+
+            if (distanceSquared <= detectionRangeSquared)
+            {
+                _enemyBehavior = EnemyBehavior.Aggro;
+            }
+            else
+            {
+                _enemyBehavior = EnemyBehavior.Patrolling;
+            }
         }
+
 
         private Vector2f GetDirectionToPlayer()
         {

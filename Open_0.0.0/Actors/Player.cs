@@ -1,24 +1,29 @@
-﻿using Open_0._0._0.UI;
+﻿using Open_0._0._0.Items;
+using Open_0._0._0.Items.EquipmentItems;
+using Open_0._0._0.Items.Food;
+using Open_0._0._0.Items.Potions;
+
+using Open_0._0._0.UI;
 using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 namespace Open_0._0._0.Actors
 {
-     class Player : Actor
+    class Player : Actor
     {
         private ConvexShape convex2 = new ConvexShape(3);
 
         private BasicHealthUI healthUI;
         private BasicDeathUI deathUI;
         public BasicInventoryUI inventoryUI;
-        
+
         public WorldItem dropItem;
 
+        private Detector detector;
+        public Equipment Equipment { get; set; }
 
         #region Properties & Fields
-        private float _attackCooldown = 2;
-        private Clock _clock;
         private float _pushPack = 15;
 
         public bool isAlive = true;
@@ -47,23 +52,33 @@ namespace Open_0._0._0.Actors
             Body_Componente.Texture = new Texture("Player.png");
             Body_Componente.Sprite.Texture = Body_Componente.Texture;
 
+            detector = new Detector(this);
 
-            _clock = new Clock();
             healthUI = new BasicHealthUI(this);
             deathUI = new BasicDeathUI(this);
             inventoryUI = new BasicInventoryUI(Inventory.Slots);
-            Item item = new Item(3, "schwert", "leichte waffe");
-            Item item3 = new Item(3, "schwert", "sgas waffe");
-            Item item2 = new Item(3, "Bogen", " waffe");
-            Item item4 = new Item(3, "Hand", " waffe");
-            Item item5 = new Item(3, "Magie", "sgas waffe");
+            // Item item = new Item(3, "schwert", "leichte waffe");
 
+            Equipment=new Equipment();
+            Item item = new Apple();
+            Item potion = new HealthPotion();
 
-            Inventory.TryAddItem(item3);
             Inventory.TryAddItem(item);
-            Inventory.TryAddItem(item2);
-            Inventory.TryAddItem(item4);
-            Inventory.TryAddItem(item5);
+            Inventory.TryAddItem(potion);
+
+            Item helm = new Helm();
+            Item chestplate = new Chestplate();
+            Item armguard = new Armguard();
+            Item pants = new Pants();
+            Item shoes = new Shoes();
+            Item sword = new Sword();         // Righthand
+            Inventory.TryAddItem(helm);
+            Inventory.TryAddItem(chestplate);
+            Inventory.TryAddItem(armguard);
+            Inventory.TryAddItem(pants);
+            Inventory.TryAddItem(shoes);
+            Inventory.TryAddItem(sword);
+
 
             convex2.SetPoint(0, new Vector2f(0, 0));   // Oben mitte
             convex2.SetPoint(1, new Vector2f(50, 0)); // Rechts oben
@@ -74,12 +89,14 @@ namespace Open_0._0._0.Actors
             convex2.Position = Body_Componente.Position_Component.PixelPosition; // Position setzen
 
             Health_Component.IncreaseMaxHealth(1000000000);// nicht vergessen incrsae health wieder zurück ändern
+            Health_Component.ApplyHeal(1000000000);
         }
         #endregion
 
         #region Public Methods
         public override void Update(float dt, Map map)
         {
+            Attack_Component.Tick(dt);
             if (!isAlive) return;
 
             // 1) Input
@@ -96,6 +113,7 @@ namespace Open_0._0._0.Actors
             HandleItemPickup();
 
             // 5) Enemy-Kollisionen
+            Attack(dt, map);
             HandleEnemyCollisions();
             OnDeath();
             healthUI.UpdatePlayerInfo();
@@ -132,8 +150,19 @@ namespace Open_0._0._0.Actors
                     PLAYER_SIZE,
                     Enemy.ENEMY_SIZE))
                 {
-                    Attack_Component.Attack(enemy);
-                    Console.WriteLine($"{enemy.Name} getroffen");
+                    // Attack_Component.Attack(enemy);
+                    //Console.WriteLine($"{enemy.Name} getroffen");
+                }
+            }
+        }
+        private void Attack(float dt, Map map)
+        {
+            Actor actor = detector.GetActorsInRange(Attack_Component.attackRange);
+            if (actor != null)
+            {
+                if (Mouse.IsButtonPressed(Mouse.Button.Left))
+                {
+                    Attack_Component.Attack(actor);
                 }
             }
         }
@@ -163,7 +192,7 @@ namespace Open_0._0._0.Actors
         #endregion
 
         #region Private Methods
-       public override void OnDeath()
+        public override void OnDeath()
         {
             if (Health_Component.IsDead())
             {
@@ -187,6 +216,81 @@ namespace Open_0._0._0.Actors
                 item.Shape.Position = dropPosition;
             }
         }
+        public void Equip(Item item)
+        {
+            if (item == null) return;
+
+            switch (item.EquipmentType)
+            {
+                case EquipmentType.Helm:
+                    Equipment.Helm = item;
+                    break;
+
+                case EquipmentType.Chestplate:
+                    Equipment.Chestplate = item;
+                    break;
+
+                case EquipmentType.Armguard:
+                    Equipment.Armguard = item;
+                    break;
+
+                case EquipmentType.Pants:
+                    Equipment.Pants = item;
+                    break;
+
+                case EquipmentType.Shoes:
+                    Equipment.Shoes = item;
+                    break;
+
+                case EquipmentType.Lefthand:
+                    Equipment.Lefthand = item;
+                    break;
+
+                case EquipmentType.Righthand:
+                    Equipment.Righthand = item;
+                    break;
+
+                default:
+                    return;
+            }
+
+            // Optional: Stats aktualisieren
+            UpdateStats();
+        }
+        private void UpdateStats()// nur beim equipen
+        {
+            int totalArmor = 0;
+            int totalDamage = 0;
+
+            // Armor
+            if (Equipment.Helm is Helm helm)
+                totalArmor += helm.Armor;
+
+            if (Equipment.Chestplate is Chestplate chest)
+                totalArmor += chest.Armor;
+
+            if (Equipment.Armguard is Armguard arm)
+                totalArmor += arm.Armor;
+
+            if (Equipment.Pants is Pants pants)
+                totalArmor += pants.Armor;
+
+            if (Equipment.Shoes is Shoes shoes)
+                totalArmor += shoes.Armor;
+
+            // Weapons
+            if (Equipment.Righthand is Sword sword)
+                totalDamage += sword.Damage;
+
+            // if (Equipment.Lefthand is Shield shield)
+            //   totalArmor += shield.DefenseBonus;
+
+            // Apply to components
+            Health_Component.IncreaseMaxHealth(Health_Component.MaxHealth + totalArmor); // temporär nur health erhöhen
+            Attack_Component.SetDamage(Attack_Component.Damage+totalDamage);
+        }
+
+
 
         #endregion
 
@@ -211,7 +315,9 @@ namespace Open_0._0._0.Actors
 
                 Vector2i mousePos = Mouse.GetPosition(window);
 
-                // RECHTSKLICK - Optionen anzeigen/ausblenden
+                // ============================================================
+                // RECHTSKLICK → Optionen anzeigen
+                // ============================================================
                 if (e.Button == Mouse.Button.Right)
                 {
                     bool clickedOnSlot = false;
@@ -225,74 +331,112 @@ namespace Open_0._0._0.Actors
                             if (!slot.IsSlotFree) // Slot hat Item
                             {
                                 inventoryUI.toogleOptions = true;
-                                inventoryUI.PostionDropButton(slot);
+                                inventoryUI.PositionOptionButtons(slot);
                                 Inventory.OptionSlot = slot;
+
                                 Console.WriteLine($"Optionen für Slot {slot.ID} angezeigt");
                             }
-                            else // Slot ist leer
+                            else
                             {
                                 inventoryUI.toogleOptions = false;
                                 Inventory.OptionSlot = null;
                             }
-                            break; // Slot gefunden - Schleife beenden
+
+                            break;
                         }
                     }
 
-                    // Wenn NICHT auf Slot geklickt wurde
                     if (!clickedOnSlot)
                     {
                         inventoryUI.toogleOptions = false;
                         Inventory.OptionSlot = null;
                     }
-                    return; // Nach Rechtsklick nichts mehr machen
+
+                    return;
                 }
 
+                // ============================================================
                 // LINKSKLICK
+                // ============================================================
                 if (e.Button == Mouse.Button.Left)
                 {
-                    // 1. Prüfe Drop-Button (wenn Optionen sichtbar sind)
+                    // ------------------------------------------------------------
+                    // 1. USE BUTTON
+                    // ------------------------------------------------------------
+                    if (inventoryUI.toogleOptions &&
+                        inventoryUI.UseButton.GetGlobalBounds().Contains(mousePos) &&
+                        Inventory.OptionSlot != null)
+                    {
+                        var slot = Inventory.OptionSlot;
+
+                        if (slot.Item != null)
+                        {
+                            Console.WriteLine($"Benutze Item aus Slot {slot.ID}: {slot.Item.Name}");
+
+                            slot.Item.Use(this); // Player ist "this" in Player-Klasse
+                            Inventory.RemoveItemFromInventory(slot);
+                            slot.Item = null;
+                        }
+
+                        inventoryUI.toogleOptions = false;
+                        Inventory.OptionSlot = null;
+                        return;
+                    }
+
+                    // ------------------------------------------------------------
+                    // 2. DROP BUTTON
+                    // ------------------------------------------------------------
                     if (inventoryUI.toogleOptions &&
                         inventoryUI.DropButton.GetGlobalBounds().Contains(mousePos) &&
                         Inventory.OptionSlot != null)
                     {
-                        Console.WriteLine($"Entferne Item aus Slot {Inventory.OptionSlot.ID}");
-                        DropItem(Inventory.OptionSlot.Item);
+                        var slot = Inventory.OptionSlot;
 
-                        Inventory.RemoveItemFromInventory(Inventory.OptionSlot);
-                        inventoryUI.Update();
+                        Console.WriteLine($"Droppe Item aus Slot {slot.ID}");
+
+                        DropItem(slot.Item);
+                        Inventory.RemoveItemFromInventory(slot);
+                        slot.Item = null;
+
                         inventoryUI.toogleOptions = false;
                         Inventory.OptionSlot = null;
-                        return; // Drop erledigt - nichts mehr machen
+                        return;
                     }
 
-                    // 2. Prüfe Slots (für Auswahl/Tausch)
+                    // ------------------------------------------------------------
+                    // 3. SLOT AUSWÄHLEN / ITEMS TAUSCHEN
+                    // ------------------------------------------------------------
                     foreach (var slot in inventoryUI.Slots)
                     {
                         if (slot.Body.GetGlobalBounds().Contains(mousePos))
                         {
-                            if (Inventory.SelectedSlot == null) // Slot auswählen
+                            if (Inventory.SelectedSlot == null)
                             {
                                 Inventory.SelectedSlot = slot;
                                 slot.Body.OutlineColor = CustomColors.BloodRed;
                                 slot.Body.OutlineThickness = 4;
                             }
-                            else // Items tauschen
+                            else
                             {
                                 Inventory.SwapItems(Inventory.SelectedSlot, slot);
+
                                 Inventory.SelectedSlot.Body.OutlineColor = CustomColors.Black;
                                 Inventory.SelectedSlot.Body.OutlineThickness = 3;
                                 Inventory.SelectedSlot = null;
                             }
+
                             break;
                         }
                     }
 
-                    // 3. Optionen ausblenden bei Klick außerhalb
+                    // ------------------------------------------------------------
+                    // 4. Optionen schließen, wenn außerhalb geklickt
+                    // ------------------------------------------------------------
                     inventoryUI.toogleOptions = false;
                 }
             };
         }
-        #endregion
 
     }
-}
+};
+#endregion

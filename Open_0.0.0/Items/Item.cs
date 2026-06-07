@@ -1,17 +1,19 @@
 ﻿using Open_0._0._0.Actions;
+using Open_0._0._0.Actors;
 using SFML.Graphics;
 using SFML.System;
 
-namespace Open_0._0._0
+namespace Open_0._0._0.Items
 {
-    internal class Item
+    abstract class Item
     {
         public RectangleShape Shape { get; set; }
+        public ItemType Type { get; set; }
+        public EquipmentType EquipmentType { get; set; }
         public int Level { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public IAction Action { get; set; }
-        public Item(int level, string name, string descrption)
+        public Item(int level, string name, string descrption, ItemType itemtype=ItemType.None,EquipmentType equipmentType=EquipmentType.Unknown)
         {
             Shape = new RectangleShape();
             Shape.FillColor = Color.Yellow;
@@ -25,6 +27,7 @@ namespace Open_0._0._0
             Shape = new RectangleShape();
             Shape.FillColor = Color.Yellow;
         }
+        public abstract void Use(Player player);
 
         public override string ToString()
         {

@@ -27,6 +27,9 @@ namespace Open_0._0._0
         private Clock _enemyClock = new Clock();
         private float _spawnCooldown = 5f;
 
+
+        private float _fpsTimer = 0f;
+        private int _frameCount = 0;
         int t = 0;
 
         public Game()
@@ -71,6 +74,17 @@ namespace Open_0._0._0
                 }
 
                 float deltaTime = _clock.Restart().AsSeconds();
+
+                _fpsTimer += deltaTime;
+                _frameCount++;
+                if (_fpsTimer >= 1f)
+                {
+                    float fps = _frameCount / _fpsTimer;
+                    Console.Title = $"FPS: {fps:F1}";
+
+                    _fpsTimer = 0f;
+                    _frameCount = 0;
+                }
                 _window.DispatchEvents();
 
                 if (Keyboard.IsKeyPressed(Keyboard.Key.M))
@@ -135,6 +149,28 @@ namespace Open_0._0._0
                 human.Body_Componente.SetBodyPostion(new Vector2f(300, 212));
 
                 Entities.Add(human);
+                t++;
+
+                 gridX = _random.Next(1, Map.MAXWIDTH - 1);
+                gridX = _random.Next(1, Map.MAXHEIGHT - 1);
+                Goblin goblin = new Goblin(gridX, gridY);
+
+                Console.WriteLine(goblin.ToString());
+
+                // Startposition im Weltkoordinatensystem
+                goblin.Body_Componente.SetBodyPostion(new Vector2f(300, 212));
+
+                Entities.Add(goblin);
+                gridX = _random.Next(1, Map.MAXWIDTH - 1);
+                gridX = _random.Next(1, Map.MAXHEIGHT - 1);
+                Goblin goblin2 = new Goblin(gridX, gridY);
+
+                Console.WriteLine(goblin.ToString());
+
+                // Startposition im Weltkoordinatensystem
+                goblin.Body_Componente.SetBodyPostion(new Vector2f(300, 212));
+
+                Entities.Add(goblin2);
                 t++;
             }
 

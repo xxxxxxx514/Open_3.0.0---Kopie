@@ -48,7 +48,7 @@ namespace Open_0._0._0.UI
         }
         public void UpdatePlayerInfo()
         {
-            _healthText.DisplayedString = $"Health: {_player.Health_Component.Health}/{_player.Health_Component._maxHealth}";
+            _healthText.DisplayedString = $"Health: {_player.Health_Component.Health}/{_player.Health_Component.MaxHealth}";
         }
 
         public void Render(RenderWindow window)

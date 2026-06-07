@@ -10,7 +10,7 @@ namespace Open_0._0._0.Components
         public Actor Owner { get; set; }
 
         private int _health = 100;
-        public int _maxHealth = 100;
+        public int MaxHealth = 100;
         private float _timer = 0;
 
 
@@ -26,17 +26,17 @@ namespace Open_0._0._0.Components
 
         public void IncreaseMaxHealth(int newmaxHealth)
         {
-            _maxHealth = newmaxHealth;
-            Health = newmaxHealth;
+            MaxHealth = newmaxHealth;
+            //Health = newmaxHealth;
         }
 
         private void SetHealth(int health)
         {
             // Clamped, damit Health nie < 0 oder > maxHealth wird
-            Health = Math.Clamp(health, 0, _maxHealth);
+            Health = Math.Clamp(health, 0, MaxHealth);
         }
 
-        public void TakeDamage(int amount)
+        public void ApplyDamage(int amount)
         {
             SetHealth(Health - amount);
             HealthChange?.Invoke();
@@ -48,9 +48,9 @@ namespace Open_0._0._0.Components
             }
         }
 
-        public void TakeHeal(int amount)
+        public void ApplyHeal(int healamount)
         {
-            SetHealth(Health + amount);
+            SetHealth(Health + healamount);
             HealthChange?.Invoke();
         }
 

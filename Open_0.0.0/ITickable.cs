@@ -1,4 +1,4 @@
-﻿namespace Open_0._0._0.Actors
+﻿namespace Open_0._0._0
 {
     public interface ITickable
     {

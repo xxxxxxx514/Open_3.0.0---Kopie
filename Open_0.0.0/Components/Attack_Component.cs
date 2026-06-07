@@ -5,10 +5,14 @@ namespace Open_0._0._0.Components
 {
     class Attack_Component:ITickable
     {
-        public int Damage { get; private set; } = 100;
         private float _attackTimer = 2f;
+
+        private int _attackCooldown = 2;
+        public int Damage { get; private set; } = 100;
+        public float attackRange = 70f;
+
         public AttackTypeEnum AttackType { get; set; }
-        private float _attackCooldown = 2;
+
         public void Tick(float dt)
         {
             if (_attackTimer > 0)
@@ -23,7 +27,7 @@ namespace Open_0._0._0.Components
             }
             else
             {
-                target.Health_Component.TakeDamage(Damage);
+                target.Health_Component.ApplyDamage(Damage);
                 _attackTimer = _attackCooldown;
             }
         }
@@ -45,5 +49,6 @@ namespace Open_0._0._0.Components
             else { Console.WriteLine($"du kannst nicht Schaden verniedrigen um {amount}"); }
         }
         public void SetDamage(int amount) => Damage = amount;
+        public void SetAttackRange(float range)=> attackRange = range;
     }
 }

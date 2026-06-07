@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Open_0._0._0
 {
-    internal class Sword:Item
+    public enum ItemType
     {
-        public int Damage {  get; set; }
-        public Sword() {}
+        None,
+        Potion,
+        Weapon,
+        Armor,
+        Food,
+        Quest,
+        Material
     }
+
 }

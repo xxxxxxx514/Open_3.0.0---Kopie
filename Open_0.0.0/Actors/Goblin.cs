@@ -15,6 +15,9 @@ namespace Open_0._0._0.Actors
             Name = "Goblin";
             monsterType = MonsterType.Goblin;
             Body_Componente.ChangeBodyColor(CustomColors.Goblin);
+
+            Body_Componente.Texture = new Texture("Goblin.png");
+            Body_Componente.Sprite.Texture = Body_Componente.Texture;
         }
         public Goblin() : base()
         {

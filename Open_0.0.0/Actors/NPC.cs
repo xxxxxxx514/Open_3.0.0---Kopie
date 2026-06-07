@@ -17,14 +17,16 @@ namespace Open_0._0._0.Actors
 
         private float _upthungertimer = 1f;
         private float _exeActiontimer = 2f;
+        private float _interactiontimer = 2f;
 
         private int _upthungerCooldown = 1;
         private int _exeActionCooldown = 2;
+        private float _interactionCooldown = 2f;
 
         private int _dmgfromDesire = 0;
 
+        private float _detectionRange = 80f;
 
-        private float _detectionRange = 50f;
 
         private Dictionary<DialogKey, string> Dialogs = new()
         {
@@ -37,7 +39,7 @@ namespace Open_0._0._0.Actors
 
         public NPCState CurrentState { get; set; } = NPCState.Idle;
         public RelationshipState Relationship { get; set; } = RelationshipState.Stranger;
-        public PlayerDetector Detector { get; set; }
+        public Detector Detector { get; set; }
 
 
         public NPC() : base()
@@ -45,10 +47,8 @@ namespace Open_0._0._0.Actors
             Name = "NPC";
             RestrictAcces = RestrictAccesEnum.None;
             Body_Componente.ChangeBodyColor(CustomColors.BabyBlue);
-
-            timer = new Clock();
-            _timer = new Clock();
-            Detector = new PlayerDetector(this);
+           
+            Detector = new Detector(this);
 
         }
 
@@ -86,7 +86,7 @@ namespace Open_0._0._0.Actors
             // Bewegung
             Movement_Component.UpdatePosition();
 
-            Interactt();
+            TickInteract(deltatime);
 
         }
         private void ExecuteAction(float dt, Map map, IAction action)
@@ -124,7 +124,7 @@ namespace Open_0._0._0.Actors
             }
             if (DesireManager.Desire.IsStarving())
             {
-                Health_Component.TakeDamage(_dmgfromDesire);
+                Health_Component.ApplyDamage(_dmgfromDesire);
             }
         }
         public override void Render(RenderWindow window)
@@ -134,13 +134,19 @@ namespace Open_0._0._0.Actors
 
         }
 
-        public virtual void Interactt()
+        public virtual void TickInteract(float deltatime)
         {
+            _interactiontimer -= deltatime;
             if (Detector.IsInRange(Game.Player.Position_Component.PixelPosition, _detectionRange))
             {
-                if (Keyboard.IsKeyPressed(Keyboard.Key.E))
+                if (_interactiontimer <= 0)
                 {
-                    Console.WriteLine(Dialogs[DialogKey.Welcome]);
+                    if (Keyboard.IsKeyPressed(Keyboard.Key.E))
+                    {
+
+                        Console.WriteLine(Dialogs[DialogKey.Welcome]);
+                        _interactiontimer = _interactionCooldown;
+                    }
                 }
             }
         }

@@ -45,7 +45,8 @@ namespace Open_0._0._0.Actors
 
         public override void Update(float deltatime, Map map)
         {
-            OnDeath(Game.Player);
+            base.Update(deltatime, map);
+            OnDeath();
             if (!IsAlive) return;
 
             // Visual Range Position aktualisieren (Zentrum auf Enemy)
@@ -72,11 +73,11 @@ namespace Open_0._0._0.Actors
             Console.WriteLine($"XP reward amount: {_reward.XP_Amount}");
         }
 
-        private void OnDeath(Player player)
+        public override void OnDeath()
         {
             if (Health_Component.IsDead())
             {
-                GivePlayerReward(player);
+                GivePlayerReward(Game.Player);
                 IsAlive = false;
             }
         }

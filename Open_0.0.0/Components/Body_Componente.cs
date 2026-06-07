@@ -1,5 +1,4 @@
-﻿using Open_0._0._0.Actors;
-using Open_0._0._0.Utils;
+﻿using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
 using System;
