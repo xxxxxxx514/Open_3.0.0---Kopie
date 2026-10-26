@@ -1,6 +1,5 @@
 ﻿using Open_0._0._0.Actors;
-using SFML.System;
-
+using Open_0._0._0.Combat;
 namespace Open_0._0._0.Components
 {
     class Attack_Component:ITickable
@@ -8,7 +7,7 @@ namespace Open_0._0._0.Components
         private float _attackTimer = 2f;
 
         private int _attackCooldown = 2;
-        public int Damage { get; private set; } = 100;
+        public int Damage { get; private set; } = 5;
         public float attackRange = 70f;
 
         public AttackTypeEnum AttackType { get; set; }

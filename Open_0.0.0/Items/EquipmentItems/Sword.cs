@@ -5,9 +5,9 @@ namespace Open_0._0._0.Items.EquipmentItems
     {
         public int Damage {  get; set; }
         public Sword():base(1, "Sword","Ein Schwert",ItemType.Weapon,EquipmentType.Righthand) {}
-        public override void Use(Player player)
+        public override void Use(Actor charackter)
         {
-            player.Equip(this);
+            charackter.Equip(this);
             Console.WriteLine("Sword");
         }
     }

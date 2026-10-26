@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWG3Dee/GDY=",
+  "dgSpecHash": "a2ouFCGUIkI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Open_0.0.0.csproj",
+  "projectFilePath": "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\Open_0.0.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dario\\.nuget\\packages\\csfml\\2.6.1\\csfml.2.6.1.nupkg.sha512",
     "C:\\Users\\dario\\.nuget\\packages\\sfml.audio\\2.6.1\\sfml.audio.2.6.1.nupkg.sha512",

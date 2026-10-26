@@ -1,4 +1,5 @@
-﻿using Open_0._0._0.Utils;
+﻿using Open_0._0._0.Scenes;
+using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
 namespace Open_0._0._0.UI
@@ -9,7 +10,7 @@ namespace Open_0._0._0.UI
         private float _height = 1080 * 0.10f;
         public bool toggle = true;
 
-        private float _poswidth = Map.MAXWIDTHPIXEL / 5 + Map.MAXWIDTHPIXEL / 7.6f;
+        private float _poswidth = 1920 / 5f + 1080 / 7.6f;
         public RectangleShape StartButton { get; private set; }
         public RectangleShape MapDesignButton { get; private set; }
         public RectangleShape SettingsButton { get; private set; }
@@ -90,7 +91,17 @@ namespace Open_0._0._0.UI
         }
         public void Render(RenderWindow window)
         {
-            Renderr(window);
+            if (toggle)
+            {
+                window.Draw(StartButton);
+                window.Draw(MapDesignButton);
+                window.Draw(SettingsButton);
+
+                // Dann alle Texte
+                window.Draw(Start);
+                window.Draw(Mapdesign);
+                window.Draw(Setting);
+            }
         }
     }
 }

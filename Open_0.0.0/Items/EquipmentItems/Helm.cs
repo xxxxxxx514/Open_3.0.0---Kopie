@@ -11,9 +11,9 @@ namespace Open_0._0._0.Items.EquipmentItems
             EquipmentType = EquipmentType.Helm;
         }
 
-        public override void Use(Player player)
+        public override void Use(Actor charackter)
         {
-            player.Equip(this);
+            charackter.Equip(this);
             Console.WriteLine("Helm");
 
         }

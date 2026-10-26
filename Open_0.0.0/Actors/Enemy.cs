@@ -1,4 +1,8 @@
-﻿using Open_0._0._0.Components;
+﻿using Open_0._0._0.Combat;
+using Open_0._0._0.Components;
+using Open_0._0._0.Core;
+using Open_0._0._0.Enums;
+using Open_0._0._0.Quests;
 using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
@@ -8,8 +12,7 @@ namespace Open_0._0._0.Actors
     class Enemy : Actor
     {
         public const int ENEMY_SIZE = 28;
-        public MonsterType monsterType = MonsterType.None;
-        public Reward reward;
+        public MonsterType Type = MonsterType.None;
         public int ID = 0;
 
 
@@ -18,8 +21,7 @@ namespace Open_0._0._0.Actors
         private CircleShape _visualRange = new CircleShape();
         private Reward _reward;
         private const int basicXpAmount = 100;
-
-
+        public Detector Detector { get; set; }
 
         public Enemy() : base()
         {
@@ -34,8 +36,29 @@ namespace Open_0._0._0.Actors
             _visualRange.FillColor = CustomColors.HalbTransparentRot;
             _visualRange.OutlineThickness = 1;
             _visualRange.OutlineColor = CustomColors.Red;
+            Died += Enemy_Died;
+            Attack_Component.SetDamage(5);
+
+            InitializeFeedback();
+
 
         }
+
+        private void Enemy_Died(Actor obj)
+        {
+            if (GameWorld.Player.QuestManager.Quest != null)
+            {
+                if (GameWorld.Player.QuestManager.Quest is KillQuest kill)
+                {
+                    if (kill.target_Type == Type)
+                    {
+                        kill.IncreaseKills(1);
+                    }
+                }
+                GivePlayerReward(GameWorld.Player);
+            }
+        }
+
 
         public Enemy(int gridX, int gridY, int damage = 5) : this()
         {
@@ -43,9 +66,9 @@ namespace Open_0._0._0.Actors
             ID++;
         }
 
-        public override void Update(float deltatime, Map map)
+        public override void Update(float deltatime)
         {
-            base.Update(deltatime, map);
+            base.Update(deltatime);
             OnDeath();
             if (!IsAlive) return;
 
@@ -54,8 +77,17 @@ namespace Open_0._0._0.Actors
                 Position_Component.PixelPosition.X + ENEMY_SIZE / 2 - _detectionRange,
                 Position_Component.PixelPosition.Y + ENEMY_SIZE / 2 - _detectionRange
             );
+            AI_Component.Update(deltatime);
 
-            AI_Component.Update(deltatime, map, Game.Player);
+        }
+
+        public void SetToken(MonsterType token)
+        {
+            _reward.Token = token;
+        }
+        public override void FixedUpdate(float fixedDelta)
+        {
+            AI_Component.FixedUpdate(fixedDelta);
         }
 
         private void CalculateReward(Player player)
@@ -77,20 +109,20 @@ namespace Open_0._0._0.Actors
         {
             if (Health_Component.IsDead())
             {
-                GivePlayerReward(Game.Player);
-                IsAlive = false;
+                base.OnDeath();
             }
         }
 
-        public override void Render(RenderWindow window)
+        public override void Render(RenderWindow window, Vector2f cameraPos)
         {
-            window.Draw(_visualRange);  // Erst den Kreis zeichnen (hintergrund)
-            window.Draw(Body_Componente.Sprite);  // Dann den Sprite
+            window.Draw(_visualRange);
+            window.Draw(Body_Componente.Sprite);
         }
+
 
         public override string ToString()
         {
-            return $"Name: {Name}, Type: {monsterType}";
+            return $"Name: {Name}, Type: {Type}";
         }
     }
 }

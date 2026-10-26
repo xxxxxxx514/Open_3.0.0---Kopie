@@ -1,4 +1,6 @@
-﻿namespace Open_0._0._0
+﻿using Open_0._0._0.World;
+
+namespace Open_0._0._0
 {
     internal class CollisionInfo
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Open_0._0._0.Items
 {
-    enum EquipmentType:byte
+     enum EquipmentType:byte
     {
         Unknown = 0,
         Helm,

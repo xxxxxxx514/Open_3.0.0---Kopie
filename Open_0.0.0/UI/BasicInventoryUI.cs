@@ -1,4 +1,5 @@
-﻿using Open_0._0._0.Utils;
+﻿using Open_0._0._0.Items;
+using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
 namespace Open_0._0._0.UI
@@ -137,7 +138,22 @@ namespace Open_0._0._0.UI
 
         public void Render(RenderWindow window)
         {
-            Renderr(window);
+            if (toggle)
+            {
+                window.Draw(Background);
+
+                foreach (var slot in Slots)
+                    window.Draw(slot.Body);
+            }
+
+            if (toogleOptions)
+            {
+                window.Draw(DropButton);
+                window.Draw(dropText);
+
+                window.Draw(UseButton);
+                window.Draw(useText);
+            }
         }
     }
 }

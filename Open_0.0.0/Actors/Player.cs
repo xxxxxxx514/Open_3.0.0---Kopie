@@ -1,30 +1,25 @@
-﻿using Open_0._0._0.Items;
+﻿using Open_0._0._0.Components;
+using Open_0._0._0.Core;
+using Open_0._0._0.Enums;
+using Open_0._0._0.Items;
 using Open_0._0._0.Items.EquipmentItems;
 using Open_0._0._0.Items.Food;
 using Open_0._0._0.Items.Potions;
-
-using Open_0._0._0.UI;
 using Open_0._0._0.Utils;
+using Open_0._0._0.World;
 using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
+using System.Text;
 namespace Open_0._0._0.Actors
 {
     class Player : Actor
     {
-        private ConvexShape convex2 = new ConvexShape(3);
-
-        private BasicHealthUI healthUI;
-        private BasicDeathUI deathUI;
-        public BasicInventoryUI inventoryUI;
-
         public WorldItem dropItem;
 
         private Detector detector;
-        public Equipment Equipment { get; set; }
 
         #region Properties & Fields
-        private float _pushPack = 15;
 
         public bool isAlive = true;
         public PlayerState PlayerState;
@@ -32,6 +27,19 @@ namespace Open_0._0._0.Actors
         public RectangleShape Shape;
         public const int PLAYER_SIZE = 28;
 
+        public QuestManager QuestManager = new QuestManager();
+        public DashAbility DashAbility = new DashAbility();
+        public int hungerProSec = 2;
+        public int thirstProSec = 2;
+
+        private float _upthungertimer = 1f;
+
+        private int _upthungerCooldown = 1;
+
+        private float _dmgtimer = 1f;
+        private int _dmgCooldown = 1;
+
+        private int _dmgfromDesire = 1;
         #endregion
 
         #region Constructor
@@ -41,25 +49,18 @@ namespace Open_0._0._0.Actors
             SetTag(Tag.Player);
             RestrictAcces = RestrictAccesEnum.Player;
 
-            Body_Componente.ChangeBodyColor(CustomColors.PlayerColor);
-            Body_Componente.SetBodyPostion(new Vector2f(300, 300));
+            Body_Componente.SetBodyPostion(new Vector2i(gridX, gridY));
 
-
-            Body_Componente.Shape.OutlineColor = CustomColors.Red;
-            Body_Componente.Shape.FillColor = CustomColors.Transparent;
-            Body_Componente.Shape.OutlineThickness = 5;
-
-            Body_Componente.Texture = new Texture("Player.png");
-            Body_Componente.Sprite.Texture = Body_Componente.Texture;
+            // Keine Skalierung — lass die Textur in Originalgröße
+            // oder nur leicht skalieren
+            Body_Componente.SetTexture("Player.png", PLAYER_SIZE);
+            Console.WriteLine("beim constructor hash"+Body_Componente.Sprite.GetHashCode());
 
             detector = new Detector(this);
 
-            healthUI = new BasicHealthUI(this);
-            deathUI = new BasicDeathUI(this);
-            inventoryUI = new BasicInventoryUI(Inventory.Slots);
             // Item item = new Item(3, "schwert", "leichte waffe");
 
-            Equipment=new Equipment();
+            Equipment = new Equipment();
             Item item = new Apple();
             Item potion = new HealthPotion();
 
@@ -79,51 +80,83 @@ namespace Open_0._0._0.Actors
             Inventory.TryAddItem(shoes);
             Inventory.TryAddItem(sword);
 
+            Health_Component.IncreaseMaxHealth(1000);// nicht vergessen incrsae health wieder zurück ändern
+            Health_Component.ApplyHeal(1000);
 
-            convex2.SetPoint(0, new Vector2f(0, 0));   // Oben mitte
-            convex2.SetPoint(1, new Vector2f(50, 0)); // Rechts oben
-            convex2.SetPoint(2, new Vector2f(25, 100));
-            convex2.FillColor = new Color(255, 99, 71); // Tomatenrot
-            convex2.OutlineColor = Color.Black;
-            convex2.OutlineThickness = 2f;
-            convex2.Position = Body_Componente.Position_Component.PixelPosition; // Position setzen
+            Attack_Component.SetDamage(5);
 
-            Health_Component.IncreaseMaxHealth(1000000000);// nicht vergessen incrsae health wieder zurück ändern
-            Health_Component.ApplyHeal(1000000000);
+            InitializeFeedback();
+
         }
         #endregion
 
         #region Public Methods
-        public override void Update(float dt, Map map)
+
+
+        public void UpdateHunger(float deltatime)
         {
-            Attack_Component.Tick(dt);
+            _upthungertimer -= deltatime;//timer runter zählen
+            _dmgtimer -= deltatime;//timer runter zählen;
+
+            if (_upthungertimer <= 0)
+            {
+                DesireManager.Desire.DrainNeeds(hungerProSec, thirstProSec);
+                _upthungertimer = _upthungerCooldown;
+
+                Console.WriteLine(ToString());
+
+            }
+
+            if (DesireManager.Desire.IsStarving())
+            {
+                if (_dmgtimer <= 0)
+                {
+                    Health_Component.ApplyDamage(_dmgfromDesire);
+                    _dmgtimer = _dmgCooldown;
+                }
+            }
+        }
+        public override void Update(float deltaTime)
+        {
+            base.Update(deltaTime);
+
+            Attack_Component.Tick(deltaTime);
             if (!isAlive) return;
-
-            // 1) Input
-            Vector2f dir = Movement_Component.GetInputDirection();
-            Vector2f movement = dir * dt * Movement_Component.MoveSpeed;
-
-            // 2) Bewegung
-            Movement_Component.TryMove(movement, map, PLAYER_SIZE);
-
-            // 3) Position aktualisieren
-            Movement_Component.UpdatePosition();
 
             // 4) Items aufsammeln
             HandleItemPickup();
 
+
+            UpdateHunger(deltaTime);
+            //UpdateHunger();
+
+            // Bedürfnisse aktualisieren → Actions aktivieren/deaktivieren
+            //DesireManager.Desire.Update(deltaTime, DesireManager);
+
             // 5) Enemy-Kollisionen
-            Attack(dt, map);
+            Attack(deltaTime);
+            QuestManager.Update();
             HandleEnemyCollisions();
-            OnDeath();
-            healthUI.UpdatePlayerInfo();
-            inventoryUI.Update();
+
+            DashAbility.Update(deltaTime);
+        }
+        public override void FixedUpdate(float fixedDelta)
+        {
+            if (!isAlive) return;
+
+            // ✅ Bewegung gehört in FixedUpdate (konstante Rate für Physik)
+            Vector2f dir = Movement_Component.GetInputDirection();
+            Vector2f movement = dir * fixedDelta * Movement_Component.MoveSpeed;
+            Movement_Component.TryMove(movement, PLAYER_SIZE);
+            Movement_Component.UpdatePosition();
+
+            DashAbility.FixedUpdate(fixedDelta);
         }
         private void HandleItemPickup()
         {
-            for (int i = Game.WorldItems.Count - 1; i >= 0; i--)
+            for (int i = GameWorld.WorldItems.Count - 1; i >= 0; i--)
             {
-                var worldItem = Game.WorldItems[i];
+                var worldItem = GameWorld.WorldItems[i];
 
                 if (Collison2D.CollisionPlayerItem(
                     Position_Component.PixelPosition,
@@ -133,7 +166,7 @@ namespace Open_0._0._0.Actors
                     Tile.TILE_SIZE))
                 {
                     PickUpItem(worldItem);
-                    Game.WorldItems.RemoveAt(i);
+                    GameWorld.WorldItems.RemoveAt(i);
                     Console.WriteLine($"Item aufgesammelt: {worldItem.Item.Name}");
                 }
             }
@@ -141,7 +174,7 @@ namespace Open_0._0._0.Actors
 
         private void HandleEnemyCollisions()
         {
-            foreach (var enemy in Game.Entities) // oder deine Liste
+            foreach (var enemy in GameWorld.Entities) // oder deine Liste
             {
                 if (Collison2D.CollisionPlayerEnemy(
                     Position_Component.PixelPosition,
@@ -155,18 +188,21 @@ namespace Open_0._0._0.Actors
                 }
             }
         }
-        private void Attack(float dt, Map map)
+        private void Attack(float dt)
         {
+
             Actor actor = detector.GetActorsInRange(Attack_Component.attackRange);
             if (actor != null)
             {
                 if (Mouse.IsButtonPressed(Mouse.Button.Left))
                 {
                     Attack_Component.Attack(actor);
+
+                    if (QuestManager.Quest != null)
+                        Console.WriteLine(QuestManager.Quest.ToString());
                 }
             }
         }
-
         public Vector2f ToPixelPosition(int gridX, int gridY)
         {
             return new Vector2f(gridX * PLAYER_SIZE, gridY * PLAYER_SIZE);
@@ -177,18 +213,7 @@ namespace Open_0._0._0.Actors
             Inventory.TryAddItem(worldItem.Item);
 
         }
-        private void ChangeColorByState()
-        {
-            switch (PlayerState)
-            {
-                case PlayerState.Hurt:
-                    Shape.FillColor = CustomColors.NESRed;
-                    break;
-                case PlayerState.Normal:
-                    Shape.FillColor = CustomColors.PlayerColor;
-                    break;
-            }
-        }
+       
         #endregion
 
         #region Private Methods
@@ -200,7 +225,7 @@ namespace Open_0._0._0.Actors
                 return;
             }
         }
-        private void DropItem(Item item)
+        public void DropItem(Item item)
         {
             if (item == null) return;
 
@@ -216,227 +241,28 @@ namespace Open_0._0._0.Actors
                 item.Shape.Position = dropPosition;
             }
         }
-        public void Equip(Item item)
-        {
-            if (item == null) return;
-
-            switch (item.EquipmentType)
-            {
-                case EquipmentType.Helm:
-                    Equipment.Helm = item;
-                    break;
-
-                case EquipmentType.Chestplate:
-                    Equipment.Chestplate = item;
-                    break;
-
-                case EquipmentType.Armguard:
-                    Equipment.Armguard = item;
-                    break;
-
-                case EquipmentType.Pants:
-                    Equipment.Pants = item;
-                    break;
-
-                case EquipmentType.Shoes:
-                    Equipment.Shoes = item;
-                    break;
-
-                case EquipmentType.Lefthand:
-                    Equipment.Lefthand = item;
-                    break;
-
-                case EquipmentType.Righthand:
-                    Equipment.Righthand = item;
-                    break;
-
-                default:
-                    return;
-            }
-
-            // Optional: Stats aktualisieren
-            UpdateStats();
-        }
-        private void UpdateStats()// nur beim equipen
-        {
-            int totalArmor = 0;
-            int totalDamage = 0;
-
-            // Armor
-            if (Equipment.Helm is Helm helm)
-                totalArmor += helm.Armor;
-
-            if (Equipment.Chestplate is Chestplate chest)
-                totalArmor += chest.Armor;
-
-            if (Equipment.Armguard is Armguard arm)
-                totalArmor += arm.Armor;
-
-            if (Equipment.Pants is Pants pants)
-                totalArmor += pants.Armor;
-
-            if (Equipment.Shoes is Shoes shoes)
-                totalArmor += shoes.Armor;
-
-            // Weapons
-            if (Equipment.Righthand is Sword sword)
-                totalDamage += sword.Damage;
-
-            // if (Equipment.Lefthand is Shield shield)
-            //   totalArmor += shield.DefenseBonus;
-
-            // Apply to components
-            Health_Component.IncreaseMaxHealth(Health_Component.MaxHealth + totalArmor); // temporär nur health erhöhen
-            Attack_Component.SetDamage(Attack_Component.Damage+totalDamage);
-        }
-
-
-
         #endregion
 
         #region Rendering
-        public override void Render(RenderWindow window)
+        public override void Render(RenderWindow window, Vector2f camaraPos)
         {
-            window.Draw(Body_Componente.Shape);
             window.Draw(Body_Componente.Sprite);
-            convex2.Position = Position_Component.PixelPosition;
-            window.Draw(convex2);
-            healthUI.Render(window);
-            deathUI.Render(window);
         }
         #endregion
-        #region Events
 
-        public void OnMouseKlick(RenderWindow window)
+        public override string ToString()
         {
-            window.MouseButtonPressed += (sender, e) =>
-            {
-                if (!inventoryUI.toggle) return; // Inventar muss sichtbar sein
+            var sb = new StringBuilder();
 
-                Vector2i mousePos = Mouse.GetPosition(window);
+            sb.AppendLine($"NPC: {Name}");
+            sb.AppendLine($"Health: {Health_Component.Health}");
+            sb.AppendLine($"Hunger: {DesireManager.Desire.Hunger}, Thirst: {DesireManager.Desire.Thirst}, Happiness: {DesireManager.Desire.Happines}");
+            sb.AppendLine($"Pos: {Position_Component.PixelPosition.X:F0}, {Position_Component.PixelPosition.Y:F0}");
+            sb.AppendLine($"Grid: {Position_Component.GridPosition.X}, {Position_Component.GridPosition.Y}");
 
-                // ============================================================
-                // RECHTSKLICK → Optionen anzeigen
-                // ============================================================
-                if (e.Button == Mouse.Button.Right)
-                {
-                    bool clickedOnSlot = false;
-
-                    foreach (var slot in inventoryUI.Slots)
-                    {
-                        if (slot.Body.GetGlobalBounds().Contains(mousePos))
-                        {
-                            clickedOnSlot = true;
-
-                            if (!slot.IsSlotFree) // Slot hat Item
-                            {
-                                inventoryUI.toogleOptions = true;
-                                inventoryUI.PositionOptionButtons(slot);
-                                Inventory.OptionSlot = slot;
-
-                                Console.WriteLine($"Optionen für Slot {slot.ID} angezeigt");
-                            }
-                            else
-                            {
-                                inventoryUI.toogleOptions = false;
-                                Inventory.OptionSlot = null;
-                            }
-
-                            break;
-                        }
-                    }
-
-                    if (!clickedOnSlot)
-                    {
-                        inventoryUI.toogleOptions = false;
-                        Inventory.OptionSlot = null;
-                    }
-
-                    return;
-                }
-
-                // ============================================================
-                // LINKSKLICK
-                // ============================================================
-                if (e.Button == Mouse.Button.Left)
-                {
-                    // ------------------------------------------------------------
-                    // 1. USE BUTTON
-                    // ------------------------------------------------------------
-                    if (inventoryUI.toogleOptions &&
-                        inventoryUI.UseButton.GetGlobalBounds().Contains(mousePos) &&
-                        Inventory.OptionSlot != null)
-                    {
-                        var slot = Inventory.OptionSlot;
-
-                        if (slot.Item != null)
-                        {
-                            Console.WriteLine($"Benutze Item aus Slot {slot.ID}: {slot.Item.Name}");
-
-                            slot.Item.Use(this); // Player ist "this" in Player-Klasse
-                            Inventory.RemoveItemFromInventory(slot);
-                            slot.Item = null;
-                        }
-
-                        inventoryUI.toogleOptions = false;
-                        Inventory.OptionSlot = null;
-                        return;
-                    }
-
-                    // ------------------------------------------------------------
-                    // 2. DROP BUTTON
-                    // ------------------------------------------------------------
-                    if (inventoryUI.toogleOptions &&
-                        inventoryUI.DropButton.GetGlobalBounds().Contains(mousePos) &&
-                        Inventory.OptionSlot != null)
-                    {
-                        var slot = Inventory.OptionSlot;
-
-                        Console.WriteLine($"Droppe Item aus Slot {slot.ID}");
-
-                        DropItem(slot.Item);
-                        Inventory.RemoveItemFromInventory(slot);
-                        slot.Item = null;
-
-                        inventoryUI.toogleOptions = false;
-                        Inventory.OptionSlot = null;
-                        return;
-                    }
-
-                    // ------------------------------------------------------------
-                    // 3. SLOT AUSWÄHLEN / ITEMS TAUSCHEN
-                    // ------------------------------------------------------------
-                    foreach (var slot in inventoryUI.Slots)
-                    {
-                        if (slot.Body.GetGlobalBounds().Contains(mousePos))
-                        {
-                            if (Inventory.SelectedSlot == null)
-                            {
-                                Inventory.SelectedSlot = slot;
-                                slot.Body.OutlineColor = CustomColors.BloodRed;
-                                slot.Body.OutlineThickness = 4;
-                            }
-                            else
-                            {
-                                Inventory.SwapItems(Inventory.SelectedSlot, slot);
-
-                                Inventory.SelectedSlot.Body.OutlineColor = CustomColors.Black;
-                                Inventory.SelectedSlot.Body.OutlineThickness = 3;
-                                Inventory.SelectedSlot = null;
-                            }
-
-                            break;
-                        }
-                    }
-
-                    // ------------------------------------------------------------
-                    // 4. Optionen schließen, wenn außerhalb geklickt
-                    // ------------------------------------------------------------
-                    inventoryUI.toogleOptions = false;
-                }
-            };
+            return sb.ToString();
         }
-
     }
-};
-#endregion
+
+}
+

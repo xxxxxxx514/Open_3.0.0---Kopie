@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Open_0.0.0.csproj": {}
+    "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\Open_0.0.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Open_0.0.0.csproj": {
+    "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\Open_0.0.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Open_0.0.0.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\Open_0.0.0.csproj",
         "projectName": "Open_0.0.0",
-        "projectPath": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\Open_0.0.0.csproj",
+        "projectPath": "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\Open_0.0.0.csproj",
         "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dario\\Desktop\\Open_2.2.1\\Open_0.0.0\\obj\\",
+        "outputPath": "C:\\Users\\dario\\Desktop\\Open_3.0.0 - Kopie\\Open_0.0.0\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Users\\dario\\Downloads\\commandline": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

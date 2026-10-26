@@ -1,15 +1,10 @@
 ﻿using Open_0._0._0.Actors;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using Open_0._0._0.Relationships.Desires;
 namespace Open_0._0._0.Actions
 {
     internal class IdleAction:IAction
     {
-        public void Execute(Actor actor, float deltaTime, Map map)
+        public void Execute(Actor actor, float deltaTime)
         {
             return;
         }

@@ -1,4 +1,5 @@
 ﻿using Open_0._0._0.Actors;
+using Open_0._0._0.Core;
 using Open_0._0._0.Utils;
 using SFML.System;
 
@@ -23,8 +24,7 @@ namespace Open_0._0._0
 
         public Actor GetActorsInRange(float range)
         {
-            List<Actor> allenteties = Game.Entities;
-            Dictionary<int, float> enemysinRange = new Dictionary<int, float>();
+            List<Actor> allenteties = GameWorld.Entities;
             float distanz = 0;
             for (int i = 0; i < allenteties.Count; i++)
             {

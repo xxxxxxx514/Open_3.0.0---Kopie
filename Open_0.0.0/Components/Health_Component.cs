@@ -4,7 +4,9 @@ namespace Open_0._0._0.Components
 {
     class Health_Component : ITickable
     {
-        public Action HealthChange;
+        public event Action<int> OnDamage;
+        public event Action<int> OnHeal;
+        public event Action<int> OnHealthChanged;
 
         // Referenz auf den Actor, dem diese Health gehört
         public Actor Owner { get; set; }
@@ -39,7 +41,8 @@ namespace Open_0._0._0.Components
         public void ApplyDamage(int amount)
         {
             SetHealth(Health - amount);
-            HealthChange?.Invoke();
+            OnHealthChanged?.Invoke(amount);
+            OnDamage?.Invoke(amount);
 
             if (Health <= 0)
             {
@@ -51,7 +54,9 @@ namespace Open_0._0._0.Components
         public void ApplyHeal(int healamount)
         {
             SetHealth(Health + healamount);
-            HealthChange?.Invoke();
+
+            OnHealthChanged?.Invoke(healamount);
+            OnHeal?.Invoke(healamount);
         }
 
         public bool IsDead()

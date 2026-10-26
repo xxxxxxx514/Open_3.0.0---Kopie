@@ -15,9 +15,9 @@ namespace Open_0._0._0.Items.Potions
         {
         }
 
-        public override void Use(Player player)
+        public override void Use(Actor character)
         {
-            player.Health_Component.ApplyHeal(HealAmount);
+            character.Health_Component.ApplyHeal(HealAmount);
         }
     }
 }

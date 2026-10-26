@@ -1,4 +1,5 @@
 ﻿using Open_0._0._0.Actors;
+using Open_0._0._0.Relationships.Desires;
 using Open_0._0._0.Utils;
 using SFML.System;
 
@@ -17,7 +18,7 @@ namespace Open_0._0._0.Actions
             _direction = RandomDirection();
         }
 
-        public void Execute(Actor actor, float deltaTime, Map map)
+        public void Execute(Actor actor, float deltaTime)
         {
             _changeDirTimer -= deltaTime;
 
@@ -29,24 +30,19 @@ namespace Open_0._0._0.Actions
             }
 
             // Bewegung ausführen
-            actor.Movement_Component.TryMove(_direction, map, actor.Body_Componente._size);
+            actor.Movement_Component.TryMove(_direction, actor.Body_Componente._size);
             //actor.DesireManager.RemoveAction<WanderAction>();
             //Console.WriteLine("hat sich bewegt");
 
         }
 
+        // NEU (richtig)
         private Vector2f RandomDirection()
         {
-            float x = (float)(_rng.NextDouble() * 2 - 1); // -1 bis 1
+            float x = (float)(_rng.NextDouble() * 2 - 1);
             float y = (float)(_rng.NextDouble() * 2 - 1);
-            var dir = new Vector2f(x, y);
-
-            // Normieren
-            MathHelper.Normalize(dir);
-            float length = (float)Math.Sqrt(dir.X * dir.X + dir.Y * dir.Y)+alterSpeed; //speed verringern
-            if (length == 0) return new Vector2f(0, 0);
-
-            return new Vector2f(dir.X / length, dir.Y / length);
+            Vector2f dir = MathHelper.Normalize(new Vector2f(x, y)); // Ergebnis behalten
+            return dir * alterSpeed;
         }
 
         public int GetPriority(Actor actor, Desire desire)

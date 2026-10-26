@@ -1,5 +1,13 @@
 ﻿using Open_0._0._0.Actions;
 using Open_0._0._0.Components;
+using Open_0._0._0.Core;
+using Open_0._0._0.Enums;
+using Open_0._0._0.Items;
+using Open_0._0._0.Items.Drinks;
+using Open_0._0._0.Items.Food;
+using Open_0._0._0.Items.Potions;
+using Open_0._0._0.Relationships;
+using Open_0._0._0.Relationships.Desires;
 using Open_0._0._0.Utils;
 using SFML.Graphics;
 using SFML.System;
@@ -12,21 +20,26 @@ namespace Open_0._0._0.Actors
     {
         public const int NPC_SIZE = 28;
 
-        public int hungerProSec = 2;
+        public int hungerProSec = 32;
         public int thirstProSec = 2;
 
         private float _upthungertimer = 1f;
         private float _exeActiontimer = 2f;
         private float _interactiontimer = 2f;
+        private float _dmgtimer = 1f;
 
+        private int _dmgCooldown = 1;
         private int _upthungerCooldown = 1;
         private int _exeActionCooldown = 2;
         private float _interactionCooldown = 2f;
 
-        private int _dmgfromDesire = 0;
+        private int _dmgfromDesire = 1;
 
         private float _detectionRange = 80f;
 
+        public event Action<NPC> OnInteract;
+
+       
 
         private Dictionary<DialogKey, string> Dialogs = new()
         {
@@ -46,9 +59,15 @@ namespace Open_0._0._0.Actors
         {
             Name = "NPC";
             RestrictAcces = RestrictAccesEnum.None;
-            Body_Componente.ChangeBodyColor(CustomColors.BabyBlue);
            
             Detector = new Detector(this);
+
+            // Actor Konstruktor — diese Zeilen löschen
+            RegisterTickable(Decision_Component);
+            RegisterTickable(DesireManager);
+            RegisterTickable(DesireManager.Desire);
+
+            InitializeFeedback();
 
         }
 
@@ -65,14 +84,23 @@ namespace Open_0._0._0.Actors
 
             Console.WriteLine($"After SetPosition - PixelPosition: ({Position_Component.PixelPosition.X}, {Position_Component.PixelPosition.Y})");
             Console.WriteLine($"After SetPosition - GridPosition: ({Position_Component.GridPosition.X}, {Position_Component.GridPosition.Y})");
+            Item item = new Apple();
+            Item potion = new Juice();
+
+            Inventory.TryAddItem(item);
+            Inventory.TryAddItem(potion);
+
+            InitializeFeedback();
+
+
         }
 
-        public override void Update(float deltatime, Map map)
+        public override void Update(float deltatime)
         {
-            base.Update(deltatime, map);
+            base.Update(deltatime);
             if (!IsAlive) return;
 
-            TickHunger(deltatime, map);
+            TickHunger(deltatime);
             //UpdateHunger();
 
             // Bedürfnisse aktualisieren → Actions aktivieren/deaktivieren
@@ -81,20 +109,22 @@ namespace Open_0._0._0.Actors
             // Entscheidung treffen
             var action = Decision_Component.Decide(this);
 
-            ExecuteAction(deltatime, map,action);
-
-            // Bewegung
-            Movement_Component.UpdatePosition();
+            ExecuteAction(deltatime,action);
 
             TickInteract(deltatime);
 
         }
-        private void ExecuteAction(float dt, Map map, IAction action)
+        public override void FixedUpdate(float fixedDelta)
+        {
+            // Bewegung
+            Movement_Component.UpdatePosition();
+        }
+        private void ExecuteAction(float dt, IAction action)
         {
             // WanderAction läuft IMMER sofort
             if (action is WanderAction)
             {
-                action.Execute(this, dt, map);
+                action.Execute(this, dt);
                 return;
             }
 
@@ -104,19 +134,17 @@ namespace Open_0._0._0.Actors
             // Wenn Timer abgelaufen → Action ausführen
             if (_exeActiontimer <= 0f)
             {
-                action.Execute(this, dt, map);
+                action.Execute(this, dt);
                 _exeActiontimer = _exeActionCooldown; // RESET
             }
         }
-        public void TickHunger(float deltatime, Map map)
+        public void TickHunger(float deltatime)
         {
             _upthungertimer -= deltatime;//timer runter zählen
 
             if (_upthungertimer <= 0)
             {
                 DesireManager.Desire.DrainNeeds(hungerProSec, thirstProSec);
-                DesireManager.Desire.Update(deltatime,DesireManager);
-
                 _upthungertimer = _upthungerCooldown;
 
                 Console.WriteLine(ToString());
@@ -124,28 +152,32 @@ namespace Open_0._0._0.Actors
             }
             if (DesireManager.Desire.IsStarving())
             {
-                Health_Component.ApplyDamage(_dmgfromDesire);
+                if (_dmgtimer <= 0)
+                {
+                    Health_Component.ApplyDamage(_dmgfromDesire);
+                    _dmgtimer = _dmgCooldown;
+                }
             }
         }
-        public override void Render(RenderWindow window)
+        public override void Render(RenderWindow window, Vector2f camaraPos)
         {
             window.Draw(Body_Componente.Sprite);  // Dann den Sprite
-            window.Draw(Body_Componente.Shape);
 
         }
 
         public virtual void TickInteract(float deltatime)
         {
             _interactiontimer -= deltatime;
-            if (Detector.IsInRange(Game.Player.Position_Component.PixelPosition, _detectionRange))
+            if (Detector.IsInRange(GameWorld.Player.Position_Component.PixelPosition, _detectionRange))
             {
                 if (_interactiontimer <= 0)
                 {
                     if (Keyboard.IsKeyPressed(Keyboard.Key.E))
                     {
-
                         Console.WriteLine(Dialogs[DialogKey.Welcome]);
                         _interactiontimer = _interactionCooldown;
+                        OnInteract?.Invoke(this);
+
                     }
                 }
             }
@@ -200,6 +232,9 @@ namespace Open_0._0._0.Actors
 
             if (DesireManager.Desire.State.HasFlag(DesireState.Unhappy))
                 states.Add("Unhappy");
+
+            if (DesireManager.Desire.State.HasFlag(DesireState.Happy))
+                states.Add("Happy");
 
             return string.Join(", ", states);
         }

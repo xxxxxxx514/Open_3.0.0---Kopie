@@ -1,5 +1,8 @@
 ﻿using Open_0._0._0.Actors;
+using Open_0._0._0.Core;
+using Open_0._0._0.Enums;
 using Open_0._0._0.Utils;
+using Open_0._0._0.World;
 using SFML.System;
 
 namespace Open_0._0._0.Components
@@ -29,37 +32,42 @@ namespace Open_0._0._0.Components
             if (_attacktimer > 0)
                 _attacktimer -= dt;
         }
-        public void Update(float deltatime, Map map, Player player)
+        public void Update(float deltatime)
         {
             Tick(deltatime);
-            Movement(deltatime, map, player);
+           
+        }
+        public void FixedUpdate(float fixedDelta)
+        {
+            Movement(fixedDelta);
             Character.Movement_Component.UpdatePosition();
         }
 
-        private void Movement(float deltatime, Map map, Player player)
+        private void Movement(float deltatime)
         {
-            DetectPlayer(player.Position_Component.PixelPosition);
+            DetectPlayer(GameWorld.Player.Position_Component.PixelPosition);
 
             if (_enemyBehavior == EnemyBehavior.Patrolling)
-                FollowRoute(map, deltatime);
+                FollowRoute(GameWorld.CurrentMap, deltatime);
             else if (_enemyBehavior == EnemyBehavior.Aggro)
-                FollowPlayer(player, map, deltatime);
+                FollowPlayer(GameWorld.Player, GameWorld.CurrentMap, deltatime);
         }
 
         private void CreateRoute()
         {
-            Vector2f pointA = Character.Position_Component.PixelPosition;
-            Vector2f pointB = new Vector2f(
+            // Zielpunkt direkt speichern, NICHT als Richtungsvektor
+            _destination = new Vector2f(
                 _random.Next(50, Map.MAXWIDTHPIXEL - 50),
                 _random.Next(50, Map.MAXHEIGHTPIXEL - 50)
             );
-            _destination = pointB - pointA;
             _hasReachedDestination = false;
         }
 
         private Vector2f GetRouteDirection()
         {
-            return MathHelper.Normalize(_destination);
+            // Richtung vom aktuellen Standort zum Zielpunkt
+            Vector2f diff = _destination - Character.Position_Component.PixelPosition;
+            return MathHelper.Normalize(diff);
         }
 
         private void FollowRoute(Map map, float deltatime)
@@ -76,33 +84,21 @@ namespace Open_0._0._0.Components
                     GetRouteDirection().Y * deltatime * _patrollingSpeed
                 );
 
-                Character.Movement_Component.TryMove(movement, map, Enemy.ENEMY_SIZE);
+                Character.Movement_Component.TryMove(movement, Enemy.ENEMY_SIZE);
             }
         }
 
         private void HasReachedDestination()
         {
-            float currentX = Character.Position_Component.PixelPosition.X;
-            float currentY = Character.Position_Component.PixelPosition.Y;
-
-            float minX = _destination.X - _tolerance;
-            float maxX = _destination.X + _tolerance;
-            float minY = _destination.Y - _tolerance;
-            float maxY = _destination.Y + _tolerance;
-
-            _hasReachedDestination = currentX >= minX && currentX <= maxX &&
-                                      currentY >= minY && currentY <= maxY;
+            float dx = _destination.X - Character.Position_Component.PixelPosition.X;
+            float dy = _destination.Y - Character.Position_Component.PixelPosition.Y;
+            _hasReachedDestination = (dx * dx + dy * dy) <= (_tolerance * _tolerance);
         }
 
         private void FollowPlayer(Player player, Map map, float deltatime)
         {
             Vector2f direction = GetDirectionToPlayer();
-            Vector2f movement = new Vector2f(
-                direction.X * deltatime * _moveSpeed,
-                direction.Y * deltatime * _moveSpeed
-            );
-
-            Character.Movement_Component.TryMove(movement, map, Enemy.ENEMY_SIZE);
+            Vector2f movement = direction * deltatime * _moveSpeed;
 
             if (Character.Collison2D.CollisionPlayerEnemy(
                 player.Position_Component.PixelPosition,
@@ -111,14 +107,32 @@ namespace Open_0._0._0.Components
                 Player.PLAYER_SIZE,
                 Enemy.ENEMY_SIZE))
             {
-                if (_attacktimer < 0)
+                if (_attacktimer <= 0)
                 {
-                    Console.WriteLine("hat player angegriffen");
+                    Console.WriteLine(Character.Name + " hat player angegriffen");
                     Character.Attack_Component.Attack(player);
                     _attacktimer = _attackCooldown;
                 }
             }
+
+
+            // 1. Versuch: volle Bewegung
+            if (Character.Movement_Component.TryMove(movement, Enemy.ENEMY_SIZE))
+                return;
+
+            // 2. Versuch: nur X
+            Vector2f xMove = new Vector2f(movement.X, 0);
+            if (Character.Movement_Component.TryMove(xMove, Enemy.ENEMY_SIZE))
+                return;
+
+            // 3. Versuch: nur Y
+            Vector2f yMove = new Vector2f(0, movement.Y);
+            Character.Movement_Component.TryMove(yMove, Enemy.ENEMY_SIZE);
+            
+            // Attack check bleibt wie gehabt
+            
         }
+
         private void DetectPlayer(Vector2f playerPosition)
         {
             _playerPosition = playerPosition;

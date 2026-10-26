@@ -1,10 +1,5 @@
 ﻿using Open_0._0._0.Actions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using Open_0._0._0.Relationships.Desires;
 namespace Open_0._0._0.Components
 {
     internal class DesireManager:ITickable

@@ -1,5 +1,5 @@
-﻿using Open_0._0._0.Actions;
-using Open_0._0._0.Actors;
+﻿using Open_0._0._0.Actors;
+using Open_0._0._0.World;
 using SFML.Graphics;
 using SFML.System;
 
@@ -27,7 +27,7 @@ namespace Open_0._0._0.Items
             Shape = new RectangleShape();
             Shape.FillColor = Color.Yellow;
         }
-        public abstract void Use(Player player);
+        public abstract void Use(Actor charackter);
 
         public override string ToString()
         {
